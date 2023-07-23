@@ -45,14 +45,14 @@ public class KitBot {
     private int killTicksWaited = 0;
     private int messageTicksWaited = 0;
     private int killDelayTicks = 0;
-    public static int messageDelay = 5000;
+    public static int messageDelay = 6000;
     public static int killDelay = 10;
     private int killDelayWaited = 0;
     public static int respawnDelay = 40;
     private int respawnDelayWaited = 0;
     public static int moveDelay = 4;
     private int moveDelayWaited = 0;
-    public static int moveTime = 60;
+    public static int moveTime = 200;
     private int moveTimeWaited = 0;
 
     @EventHandler
