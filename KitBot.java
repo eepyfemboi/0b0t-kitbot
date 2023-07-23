@@ -280,7 +280,7 @@ public class KitBot {
             sendSuicideMessage();
         }
 
-        if (!waitingForRespawn && Minecraft.getMinecraft().player != null && Minecraft.getMinecraft().world == null) {
+        if (!waitingForRespawn && Minecraft.getMinecraft().player != null && Minecraft.getMinecraft().player.isDead) {
             playerPerformRespawn();
         }
 
